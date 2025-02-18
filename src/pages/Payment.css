@@ -1,0 +1,76 @@
+/* Payment Page Container */
+.payment-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-details {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-details h2 {
+    color: #2a9d8f;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .payment-details p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .payment-details h3 {
+    font-size: 1.2rem;
+    color: #e76f51;
+  }
+  
+  .payment-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-btn:hover {
+    background-color: #21867a;
+  }
+  
+  .payment-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .payment-details ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .payment-details ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .payment-details strong {
+    color: #4caf50;
+  }
+  
+  /* Toast Styling */
+  .Toastify__toast--success {
+    background-color: #2a9d8f;
+    color: white;
+  }
+  
