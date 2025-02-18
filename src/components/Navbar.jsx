@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("Login"); // Remove user data from localStorage
+    localStorage.removeItem("User"); // Remove user data from localStorage
     setIsLoggedIn(false);
     window.location.reload(); // Refresh the page to update UI
   };
